@@ -1,0 +1,32 @@
+'.erb':
+  'Non-rendering ERB':
+    'prefix': 'er'
+    'body': '<% $1 %>'
+  'Rendering ERB':
+    'prefix': 'pe'
+    'body': '<%= $1 %>'
+'.html':
+  'Non-rendering ERB':
+    'prefix': 'er'
+    'body': '<% $1 %>'
+  'Rendering ERB':
+    'prefix': 'pe'
+    'body': '<%= $1 %>'
+'.js':
+  'Console log':
+    'prefix': 'cl'
+    'body': 'console.log($1);'
+  'Arrow Function':
+    'prefix': 'fn'
+    'body': '$1 ($2) => {\n   $3\n}'
+'.source.ruby':
+  'Pry binding':
+    'prefix': 'bp'
+    'body': 'binding.pry'
+'.scss':
+  'Remify layout':
+    'prefix': 'rl'
+    'body': '@include remify-layout($1);'
+  'Remify font':
+    'prefix': 'rf'
+    'body': '@include remify-font($1);'
